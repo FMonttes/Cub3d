@@ -1,7 +1,7 @@
 
 
 NAME = cub3D
-LIBMLX = ../../minilibx/libmlx_Linux.a
+LIBMLX = ../../../minilibx/libmlx_Linux.a
 SRC_DIR = src
 FLAGSMLX = -Lmlx -lXext -lX11 -lglfw -lm
 CFLAGS =  -Wall -Werror -Wextra
